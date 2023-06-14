@@ -50,7 +50,7 @@ export class StarsPlugin extends LitElement {
   `;
  static getMetaConfig() {
     return {
-      controlName: 'Star Rating',
+      controlName: 'StarRating',
       fallbackDisableSubmit: false,
       groupName: 'Rating',
       version: '1.2',
