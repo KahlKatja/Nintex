@@ -155,7 +155,7 @@ export class StarsPlugin extends LitElement {
             color:#ccc;
         }
         .rate:not(:checked) > label:before {
-            content: 'â˜… ';
+            content: '\2605';
         }
         .rate > input:checked ~ label {
             color: #ffc700;    
